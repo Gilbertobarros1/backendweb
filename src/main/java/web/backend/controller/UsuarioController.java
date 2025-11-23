@@ -8,7 +8,7 @@ import web.backend.service.UsuarioService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/api/usuarios")
 @CrossOrigin(origins = "http://localhost:4200")
 public class UsuarioController {
 
